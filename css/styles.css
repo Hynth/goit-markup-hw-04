@@ -77,11 +77,91 @@ address {
   justify-content: space-between;
 }
 
+.container-main-bottom2 {
+  display: flex;
+  justify-content: space-between;
+}
+
 .container-main-portfolio {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 50px;
+}
+
+/* ********************* */
+/* ********************* */
+.icon {
+  display: block;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+.icon-header-contact {
+  display: inline-block;
+  width: 16px;
+  height: 12px;
+  fill: #757575;
+}
+
+.icon-style-middle {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+.icon-span {
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  margin: 0 5px 30px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.icon-span:hover > svg {
+  fill: #ffffff;
+}
+
+.icon-span:hover {
+  background-color: #2196f3;
+}
+
+.icon-style-contacts {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+}
+
+.icon-background-middle {
+  margin-bottom: 30px;
+  padding: 25px 100px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.icon-style-client {
+  width: 41px;
+  height: 46px;
+  fill: #afb1b8;
+}
+
+.icon-footer {
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  margin: 0 5px 30px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.icon-footer:hover > svg {
+  fill: #ffffff;
+}
+
+.icon-footer:hover {
+  background-color: #2196f3;
 }
 
 /* ********************* */
@@ -117,21 +197,34 @@ address {
   color: #2196f3;
 }
 
+.header-list-contact {
+  padding-left: 30px;
+}
+
 .header-contact {
   color: #757575;
   text-decoration: none;
-  margin-left: 50px;
+  margin-left: 10px;
 }
 
-.header-contact:hover {
+.header-list-contact:hover > a {
   color: #2196f3;
+}
+
+.header-list-contact:hover > svg {
+  fill: #2196f3;
 }
 
 /* ********************* */
 /* ********************* */
 /* Main's Styles */
 .main-top {
-  background-color: #2f303a;
+  background-image: url('../images/background_main.jpg');
+  background-size: cover;
+}
+
+.main-overlay-img {
+  background-color: rgba(47, 48, 58, 0.4);
 }
 
 .main-title {
@@ -204,6 +297,43 @@ address {
   margin-top: 94px;
 }
 
+.list-main-middle2 {
+  display: flex;
+  width: 373px;
+  height: 294px;
+  align-items: flex-end;
+}
+
+.list-main-middle2:nth-child(1) {
+  background-image: url('../images/typing_tablet.jpg');
+  background-size: cover;
+}
+
+.list-main-middle2:nth-child(2) {
+  background-image: url('../images/laptop_phone.jpg');
+  background-size: cover;
+}
+
+.list-main-middle2:nth-child(3) {
+  background-image: url('../images/tablet_panelcolor.jpg');
+  background-size: cover;
+}
+
+.list-middle2-overlay {
+  background: rgba(47, 48, 58, 0.8);
+  padding: 27px 0;
+  width: 373px;
+}
+
+.text-main-middle2 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
 .subtitle2-main-block {
   font-weight: 700;
   font-size: 36px;
@@ -243,6 +373,30 @@ address {
   margin-bottom: 30px;
 }
 
+.main-bottom-span {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.main-bottom-block2 {
+  margin-top: 57px;
+  margin-bottom: 153px;
+}
+
+.div-bottom2 {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  padding: 14px 64px;
+}
+
+.div-bottom2:hover > svg {
+  fill: #2196f3;
+}
+
+.div-bottom2:hover {
+  border: 1px solid #2196f3;
+}
 /* ********************* */
 /* ********************* */
 /* Main Portfolio's Styles */
@@ -307,6 +461,10 @@ address {
 /* ********************* */
 /* ********************* */
 /* Footer's Styles */
+.footer-background {
+  background-color: #2f303a;
+}
+
 .color-text-white {
   color: #ffffff;
   text-decoration: none;
@@ -327,6 +485,7 @@ address {
 }
 
 .footer-style {
+  display: flex;
   padding: 60px 0;
 }
 
@@ -336,4 +495,16 @@ address {
 
 .footer-address {
   margin-top: 9px;
+}
+
+.footer-element:last-child {
+  margin-left: 70px;
+}
+
+.text-footer2 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }

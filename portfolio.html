@@ -43,12 +43,18 @@
           </ul>
         </nav>
         <ul class="list container-contact">
-          <li>
+          <li class="header-list-contact">
+            <svg class="icon icon-header-contact pointer">
+              <use xlink:href="./images/icons.svg#icon-sobre"></use>
+            </svg>
             <a class="header-contact" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li>
+          <li class="header-list-contact">
+            <svg class="icon icon-header-contact pointer">
+              <use xlink:href="./images/icons.svg#icon-smarthpone"></use>
+            </svg>
             <a class="header-contact" href="tel:+525555296000"
               >+52 55 5529 6000</a
             >
@@ -125,36 +131,65 @@
         </li>
       </ul>
     </main>
-    <footer class="main-top">
+    <footer class="footer-background">
       <section class="container footer-style">
-        <a class="header-title" href="./index.html">WebStudio</a>
-        <address class="footer-address">
-          <ul class="list footer-list-portfolio">
-            <li>
-              <a
-                class="text-main-block color-text-white footer-text-behavior"
-                href="https://goo.gl/maps/GB3hHYx3USkWvwVn7"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Calz. Ticomán 500, Ciudad de México, CDMX, México</a
-              >
-            </li>
-            <li>
-              <a
-                class="text-main-block color-text-gray footer-text-behavior"
-                href="mailto:info@example.com"
-                >info@example.com</a
-              >
-            </li>
-            <li>
-              <a
-                class="text-main-block color-text-gray footer-text-behavior"
-                href="tel:+525555296000"
-                >+52 55 5529 6000</a
-              >
-            </li>
-          </ul>
-        </address>
+        <section class="footer-element">
+          <a class="header-title" href="./index.html">WebStudio</a>
+          <address class="footer-address">
+            <ul class="list">
+              <li>
+                <a
+                  class="text-main-block color-text-white footer-text-behavior"
+                  href="https://goo.gl/maps/GB3hHYx3USkWvwVn7"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Calz. Ticomán 500, Ciudad de México, CDMX, México</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-main-block color-text-gray footer-text-behavior"
+                  href="mailto:info@example.com"
+                  >info@example.com</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-main-block color-text-gray footer-text-behavior"
+                  href="tel:+525555296000"
+                  >+52 55 5529 6000</a
+                >
+              </li>
+            </ul>
+          </address>
+        </section>
+        <section class="footer-element">
+          <p class="text-footer2">ENCUENTRENOS EN</p>
+          <section class="main-bottom-span">
+            <div class="icon-footer">
+              <svg class="icon icon-style-contacts">
+                <use xlink:href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </div>
+            <div class="icon-footer">
+              <svg class="icon icon-style-contacts">
+                <use xlink:href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </div>
+
+            <div class="icon-footer">
+              <svg class="icon icon-style-contacts">
+                <use xlink:href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </div>
+
+            <div class="icon-footer">
+              <svg class="icon icon-style-contacts">
+                <use xlink:href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </div>
+          </section>
+        </section>
       </section>
     </footer>
   </body>
